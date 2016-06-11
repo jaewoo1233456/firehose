@@ -55,6 +55,8 @@ Splurty::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  resources :quotes
+
   root 'quotes#index'
 
 end
